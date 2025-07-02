@@ -1,9 +1,9 @@
 import { View, Text, Button } from 'react-native'
-import React from 'react'
+import React, { useState } from 'react'
+import UseStateHook from './src/components/UseStateHook'
 //import First from './src/components/First'
 //import JSX from "./src/components/JSX"
-import OnPress from './src/components/OnPress'
-
+// import OnPress from './src/components/OnPress'
 
 const App = () => {
   return (
@@ -16,7 +16,9 @@ const App = () => {
     {/* <JSX/> */}
 
 
-    <OnPress/>
+    {/* <OnPress/> */}
+
+    <UseStateHook/>
     </View>
   )
 }
