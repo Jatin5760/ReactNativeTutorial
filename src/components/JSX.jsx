@@ -1,12 +1,11 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const JSX = () => {
   let name = "Jatin";
   const getAge = () => {
     return 22;
   }
-}
+
 export default function JSX () {
   return (
     <View>
