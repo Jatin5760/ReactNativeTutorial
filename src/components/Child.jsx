@@ -1,12 +1,12 @@
 import { View, Text, Button } from 'react-native'
 
-export default function Child(props) {
-  console.log(props.data);
+export default function Child({counting, counting_items}) {
+
   return (
     <View>
       <Text style={{fontSize: 30}}>Child</Text>
-      <Text style={{fontSize: 30}}>{props.data[0]}</Text>
-      <Text style={{fontSize: 30}}>{props.data[1]}</Text>
+      <Text style={{fontSize: 30}}>{counting}</Text>
+      <Text style={{fontSize: 30}}>{counting_items}</Text>
     </View>
   )
 }

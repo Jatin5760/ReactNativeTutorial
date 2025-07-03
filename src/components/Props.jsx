@@ -12,7 +12,7 @@ export default function Props() {
       <Text style={{fontSize: 30}}>Props</Text>
       <Button title='Press Me' onPress={() => setCount(count + 1)}/>
       <Button title='Items' onPress={() => setItems(items * 10)} />
-      <Child data = {[count,items]}/>
+      <Child counting = {count} counting_items = {items}/>
     </View>
   )
 }
