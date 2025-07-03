@@ -28,6 +28,8 @@ export default function MySectionList() {
         <Text>{item.name}</Text>
     </View>
   );
+
+  const renderSectionHeader = ({section})
   
   return (
     <View>
