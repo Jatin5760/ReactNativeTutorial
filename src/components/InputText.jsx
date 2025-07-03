@@ -19,7 +19,6 @@ export default function InputText() {
         onChangeText={(value)=>setUserName(value)}
         value={username}
       />
-
       <Button title='Clear' onPress={()=> setUserName('')} />
     </View>
   );
