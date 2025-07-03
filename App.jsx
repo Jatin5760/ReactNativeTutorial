@@ -8,7 +8,7 @@ import React, { useState } from 'react';
 // import OnPress from './src/components/OnPress'
 //import Styling from './src/components/Styling';
 //import FlatListScreen from './src/components/FlatListScreen';
-import SectionList from './src/components/SectionList';
+import MySectionList from './src/components/SectionList';
 
 export default function App (){
   return (
@@ -34,9 +34,7 @@ export default function App (){
         {/* <FlatListScreen/> */}
 
         
-        <SectionList/>
-
-
+        <MySectionList/>
       </View>
   );
 };

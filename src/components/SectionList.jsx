@@ -29,13 +29,18 @@ export default function MySectionList() {
     </View>
   );
 
-  const renderSectionHeader = ({section})
+  const renderSectionHeader = ({section}) => (
+    <View>
+        <Text>{section.title}</Text>
+    </View>
+  );
   
   return (
     <View>
       <SectionList
         sections={listItem}
         renderItem={renderItem}
+        renderSectionHeader={renderSectionHeader}
       />
     </View>
   );
