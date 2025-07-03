@@ -6,7 +6,8 @@ import React, { useState } from 'react';
 //import First from './src/components/First'
 //import JSX from "./src/components/JSX"
 // import OnPress from './src/components/OnPress'
-import Styling from './src/components/Styling';
+//import Styling from './src/components/Styling';
+import FlatListScreen from './src/components/FlatListScreen';
 
 const App = () => {
   return (
@@ -28,7 +29,9 @@ const App = () => {
 
         {/* <InputText /> */}
 
-        <Styling/>
+        {/* <Styling/> */}
+
+        <FlatListScreen/>
       </View>
     </SafeAreaView>
   );
