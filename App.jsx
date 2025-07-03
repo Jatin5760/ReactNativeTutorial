@@ -8,7 +8,8 @@ import React, { useState } from 'react';
 // import OnPress from './src/components/OnPress'
 //import Styling from './src/components/Styling';
 //import FlatListScreen from './src/components/FlatListScreen';
-import MySectionList from './src/components/SectionList';
+//import MySectionList from './src/components/SectionList';
+import LoginForm from './src/components/LoginForm';
 
 export default function App (){
   return (
@@ -34,7 +35,9 @@ export default function App (){
         {/* <FlatListScreen/> */}
 
         
-        <MySectionList/>
+        {/* <MySectionList/> */}
+
+        <LoginForm/>
       </View>
   );
 };
