@@ -1,4 +1,4 @@
-import { View, Text, Button } from 'react-native';
+import { View, Text, Button, SafeAreaView } from 'react-native';
 import React, { useState } from 'react';
 //import Props from './src/components/Props'
 import InputText from './src/components/InputText';
@@ -9,23 +9,25 @@ import InputText from './src/components/InputText';
 
 const App = () => {
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      {/* <Text style={{fontSize: 30}}>Jatin Sharma</Text>
+    <SafeAreaView style={{ flex: 1, backgroundColor: '#fff' }}>
+      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        {/* <Text style={{fontSize: 30}}>Jatin Sharma</Text>
       <Text style={{fontSize: 30}}>I'm a Application Developer</Text>
       <Button title="Press Me"/> */}
 
-      {/* <First/> */}
+        {/* <First/> */}
 
-      {/* <JSX/> */}
+        {/* <JSX/> */}
 
-      {/* <OnPress/> */}
+        {/* <OnPress/> */}
 
-      {/* <UseStateHook/> */}
+        {/* <UseStateHook/> */}
 
-      {/* <Props/> */}
+        {/* <Props/> */}
 
-      <InputText />
-    </View>
+        <InputText />
+      </View>
+    </SafeAreaView>
   );
 };
 
