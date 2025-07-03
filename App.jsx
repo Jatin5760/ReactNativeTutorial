@@ -12,10 +12,11 @@ import React, { useState } from 'react';
 //import LoginForm from './src/components/LoginForm';
 //import ContactListScreen from './src/screens/Contact/ContactListScreen';
 import Grid from './src/components/Grid';
+import styles from './src/styles/styles';
 
 export default function App (){
   return (
-      <View>
+      <View style={{flex:1}}>
         {/* <Text style={{fontSize: 30}}>Jatin Sharma</Text>
       <Text style={{fontSize: 30}}>I'm a Application Developer</Text>
       <Button title="Press Me"/> */}
