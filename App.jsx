@@ -1,11 +1,12 @@
 import { View, Text, Button, SafeAreaView } from 'react-native';
 import React, { useState } from 'react';
 //import Props from './src/components/Props'
-import InputText from './src/components/InputText';
+//import InputText from './src/components/InputText';
 //import UseStateHook from './src/components/UseStateHook'
 //import First from './src/components/First'
 //import JSX from "./src/components/JSX"
 // import OnPress from './src/components/OnPress'
+import Styling from './src/components/Styling';
 
 const App = () => {
   return (
@@ -25,7 +26,9 @@ const App = () => {
 
         {/* <Props/> */}
 
-        <InputText />
+        {/* <InputText /> */}
+
+        <Styling/>
       </View>
     </SafeAreaView>
   );
