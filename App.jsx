@@ -1,4 +1,4 @@
-import { View, Text, Button, SafeAreaView } from 'react-native';
+import { View, Text, Button} from 'react-native';
 import React, { useState } from 'react';
 //import Props from './src/components/Props'
 //import InputText from './src/components/InputText';
@@ -8,10 +8,10 @@ import React, { useState } from 'react';
 // import OnPress from './src/components/OnPress'
 //import Styling from './src/components/Styling';
 //import FlatListScreen from './src/components/FlatListScreen';
+import SectionList from './src/components/SectionList';
 
-const App = () => {
+export default function App (){
   return (
-    <SafeAreaView>
       <View>
         {/* <Text style={{fontSize: 30}}>Jatin Sharma</Text>
       <Text style={{fontSize: 30}}>I'm a Application Developer</Text>
@@ -33,11 +33,10 @@ const App = () => {
 
         {/* <FlatListScreen/> */}
 
-          
+        
+        <SectionList/>
+
 
       </View>
-    </SafeAreaView>
   );
 };
-
-export default App;

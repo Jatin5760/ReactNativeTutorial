@@ -4,7 +4,7 @@ import React from 'react'
 export default function SectionList() {
   return (
     <View>
-      <Text>SectionList</Text>
+      <Text>SectionList Jatin</Text>
     </View>
   )
 }
