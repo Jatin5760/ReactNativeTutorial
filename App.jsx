@@ -11,8 +11,8 @@ import FlatListScreen from './src/components/FlatListScreen';
 
 const App = () => {
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: '#fff' }}>
-      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+    <SafeAreaView>
+      <View>
         {/* <Text style={{fontSize: 30}}>Jatin Sharma</Text>
       <Text style={{fontSize: 30}}>I'm a Application Developer</Text>
       <Button title="Press Me"/> */}
