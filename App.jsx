@@ -9,7 +9,9 @@ import React, { useState } from 'react';
 //import Styling from './src/components/Styling';
 //import FlatListScreen from './src/components/FlatListScreen';
 //import MySectionList from './src/components/SectionList';
-import LoginForm from './src/components/LoginForm';
+//import LoginForm from './src/components/LoginForm';
+//import ContactListScreen from './src/screens/Contact/ContactListScreen';
+import Grid from './src/components/Grid';
 
 export default function App (){
   return (
@@ -37,7 +39,11 @@ export default function App (){
         
         {/* <MySectionList/> */}
 
-        <LoginForm/>
+        {/* <LoginForm/> */}
+
+        {/* <ContactListScreen/> */}
+
+        <Grid/>
       </View>
   );
 };
