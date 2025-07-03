@@ -5,7 +5,8 @@ export default function Child(props) {
   return (
     <View>
       <Text style={{fontSize: 30}}>Child</Text>
-      <Text style={{fontSize: 30}}>{props.data}</Text>
+      <Text style={{fontSize: 30}}>{props.data[0]}</Text>
+      <Text style={{fontSize: 30}}>{props.data[1]}</Text>
     </View>
   )
 }
