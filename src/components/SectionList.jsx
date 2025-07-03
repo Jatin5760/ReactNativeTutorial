@@ -25,13 +25,13 @@ export default function MySectionList() {
 
   const renderItem = ({item}) => (
     <View style={styles.item}>
-        <Text>{item.name}</Text>
+        <Text style={styles.title}>{item.name}</Text>
     </View>
   );
 
   const renderSectionHeader = ({section}) => (
-    <View>
-        <Text>{section.title}</Text>
+    <View style={styles.header}>
+        <Text style={styles.headerTitle}>{section.title}</Text>
     </View>
   );
   
@@ -58,5 +58,19 @@ const styles = StyleSheet.create({
         padding:10,
         marginVertical:5,
         borderRadius:5
-    }
+    },
+    title:{
+        fontSize: 18,
+    },
+    header:{
+        backgroundColor:'#90ee90',
+        padding:10,
+        borderRadius: 5,
+        marginVertical: 5,
+    },
+    headerTitle:{
+        fontSize: 20,
+        fontWeight: 'bold'
+    },
+
 })
