@@ -1,4 +1,4 @@
-import { View, Text, SectionList } from 'react-native';
+import { View, Text, SectionList, StyleSheet } from 'react-native';
 import React from 'react';
 
 export default function MySectionList() {
@@ -24,7 +24,7 @@ export default function MySectionList() {
   ];
 
   const renderItem = ({item}) => (
-    <View>
+    <View style={styles.item}>
         <Text>{item.name}</Text>
     </View>
   );
@@ -36,7 +36,7 @@ export default function MySectionList() {
   );
   
   return (
-    <View>
+    <View style={styles.container}>
       <SectionList
         sections={listItem}
         renderItem={renderItem}
@@ -46,3 +46,17 @@ export default function MySectionList() {
     </View>
   );
 }
+
+
+const styles = StyleSheet.create({
+    container:{
+        backgroundColor:"#f0f0f0",
+        paddingTop: 15,
+    },
+    item:{
+        backgroundColor: "#add8e6",
+        padding:10,
+        marginVertical:5,
+        borderRadius:5
+    }
+})
