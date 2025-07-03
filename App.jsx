@@ -7,7 +7,7 @@ import React, { useState } from 'react';
 //import JSX from "./src/components/JSX"
 // import OnPress from './src/components/OnPress'
 //import Styling from './src/components/Styling';
-import FlatListScreen from './src/components/FlatListScreen';
+//import FlatListScreen from './src/components/FlatListScreen';
 
 const App = () => {
   return (
@@ -31,7 +31,10 @@ const App = () => {
 
         {/* <Styling/> */}
 
-        <FlatListScreen/>
+        {/* <FlatListScreen/> */}
+
+          
+
       </View>
     </SafeAreaView>
   );
