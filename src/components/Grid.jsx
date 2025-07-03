@@ -3,24 +3,24 @@ import React from 'react'
 
 export default function Grid() {
     const data = [
-        { id: 1, title: 'Item1' },
-        { id: 2, title: 'Item2' },
-        { id: 3, title: 'Item3' },
-        { id: 4, title: 'Item4' },
-        { id: 5, title: 'Item5' },
-        { id: 6, title: 'Item6' },
-        { id: 7, title: 'Item7' },
-        { id: 8, title: 'Item8' },
-        { id: 9, title: 'Item9' },
-        { id: 10, title: 'Item10' },
-        { id: 11, title: 'Item11' },
-        { id: 12, title: 'Item12' },
-        { id: 13, title: 'Item13' },
-        { id: 14, title: 'Item14' },
-        { id: 15, title: 'Item15' },
-        { id: 16, title: 'Item16' },
-        { id: 17, title: 'Item17' },
-        { id: 18, title: 'Item18' },
+        { id: 1, title: 'Item 1' },
+        { id: 2, title: 'Item 2' },
+        { id: 3, title: 'Item 3' },
+        { id: 4, title: 'Item 4' },
+        { id: 5, title: 'Item 5' },
+        { id: 6, title: 'Item 6' },
+        { id: 7, title: 'Item 7' },
+        { id: 8, title: 'Item 8' },
+        { id: 9, title: 'Item 9' },
+        { id: 10, title: 'Item 10' },
+        { id: 11, title: 'Item 11' },
+        { id: 12, title: 'Item 12' },
+        { id: 13, title: 'Item 13' },
+        { id: 14, title: 'Item 14' },
+        { id: 15, title: 'Item 15' },
+        { id: 16, title: 'Item 16' },
+        { id: 17, title: 'Item 17' },
+        { id: 18, title: 'Item 18' },
       ];
   return (
     <View style={styles.mainContainer}>
@@ -29,7 +29,7 @@ export default function Grid() {
         {
             data.map((item) => (
                 <View key={item.id} style={styles.gridItems}>
-                    <Text>{item.title}</Text>
+                    <Text style={styles.itemText}>{item.title}</Text>
                 </View>
             ))
         }
@@ -67,5 +67,11 @@ const styles = StyleSheet.create({
         borderRadius: 15,
         alignItems: 'center',
         justifyContent: 'center',
+    },
+    itemText:{
+        color: '#fff',
+        fontSize: 18,
+        fontWeight: 700,
+        textTransform: 'uppercase',
     }
 })
