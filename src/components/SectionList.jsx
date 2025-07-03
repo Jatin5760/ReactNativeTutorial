@@ -41,6 +41,7 @@ export default function MySectionList() {
         sections={listItem}
         renderItem={renderItem}
         renderSectionHeader={renderSectionHeader}
+        keyExtractor={(item)=> item.id}
       />
     </View>
   );
