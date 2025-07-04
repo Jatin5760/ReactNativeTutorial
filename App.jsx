@@ -13,7 +13,8 @@ import React, { useState } from 'react';
 //import ContactListScreen from './src/screens/Contact/ContactListScreen';
 //import Grid from './src/components/Grid';
 //import styles from './src/styles/styles';
-import ClassComponent from './src/components/ClassComponent';
+//import ClassComponent from './src/components/ClassComponent';
+import UseEffectHook from './src/components/UseEffectHook';
 
 export default function App (){
   return (
@@ -47,7 +48,9 @@ export default function App (){
 
         {/* <Grid/> */}
 
-        <ClassComponent/>
+        {/* <ClassComponent/> */}
+
+        <UseEffectHook/>
       </View>
   );
 };
