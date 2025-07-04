@@ -11,8 +11,9 @@ import React, { useState } from 'react';
 //import MySectionList from './src/components/SectionList';
 //import LoginForm from './src/components/LoginForm';
 //import ContactListScreen from './src/screens/Contact/ContactListScreen';
-import Grid from './src/components/Grid';
-import styles from './src/styles/styles';
+//import Grid from './src/components/Grid';
+//import styles from './src/styles/styles';
+import ClassComponent from './src/components/ClassComponent';
 
 export default function App (){
   return (
@@ -44,7 +45,9 @@ export default function App (){
 
         {/* <ContactListScreen/> */}
 
-        <Grid/>
+        {/* <Grid/> */}
+
+        <ClassComponent/>
       </View>
   );
 };
