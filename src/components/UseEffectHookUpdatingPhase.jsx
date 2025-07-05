@@ -5,8 +5,14 @@ export default function UseEffectHookUpdatingPhase() {
     const [counter, setCounter] = useState(0);
     const [score, setScore] = useState(20);
     useEffect(() => {
+        console.log("Useffect is called by updating counter");
         
-    }, [])
+    }, [counter]);
+
+    useEffect(() => {
+        console.log("Useffect is called by updating score");
+        
+    }, [score]);
     
   return (
     <View>
