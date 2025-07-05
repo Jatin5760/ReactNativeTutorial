@@ -8,7 +8,7 @@ export default function UseEffectHook() {
     // API se data fetch karte time Useeffect ka use karte hai,
     // Manlo gar useeffect ka use nahi kiya aur api se data fetch karliya, aur agar ui ke render hone se pehele data api se nahi aya toh baat bigad sakti hai.
     useEffect(() => {
-        // Mounting lifecycle use hua
+        // Mounting lifecycle use hua jaise ji component render hua ye run ho jayega
       console.log("This is a useEffect Hook");
     }, [])
     
