@@ -11,7 +11,7 @@ export default function UseEffectHook() {
     useEffect(() => {
         // Mounting lifecycle use hua jaise ji component render hua ye run ho jayega
         console.log("This is a useEffect Hook");
-    }, [])
+    },[]);
     
   return (
     <View>
