@@ -14,7 +14,8 @@ import React, { useState } from 'react';
 //import Grid from './src/components/Grid';
 //import styles from './src/styles/styles';
 //import ClassComponent from './src/components/ClassComponent';
-import UseEffectHook from './src/components/UseEffectHook';
+//import UseEffectHook from './src/components/UseEffectHook';
+import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase';
 
 export default function App (){
   return (
@@ -50,7 +51,9 @@ export default function App (){
 
         {/* <ClassComponent/> */}
 
-        <UseEffectHook/>
+        {/* <UseEffectHook/> */}
+
+        <UseEffectHookUpdatingPhase/>
       </View>
   );
 };
