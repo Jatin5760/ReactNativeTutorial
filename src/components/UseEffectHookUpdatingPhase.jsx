@@ -15,7 +15,6 @@ export default function UseEffectHookUpdatingPhase() {
       <Text style={{fontSize: 30, marginBottom: 10}}>Score: {score}</Text> 
       <Button title='Counter' onPress={()=> setCounter(counter+ 1)}/>     
       <Button title='Score' onPress={()=> setScore(score + 1)}/>     
-
     </View>
   )
 }
