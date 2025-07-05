@@ -15,7 +15,8 @@ import React, { useState } from 'react';
 //import styles from './src/styles/styles';
 //import ClassComponent from './src/components/ClassComponent';
 //import UseEffectHook from './src/components/UseEffectHook';
-import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase';
+//import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase';
+import UseEffect_Unmounting_Phase from './src/components/UseEffect_Unmounting_Phase';
 
 export default function App (){
   return (
@@ -53,7 +54,9 @@ export default function App (){
 
         {/* <UseEffectHook/> */}
 
-        <UseEffectHookUpdatingPhase/>
+        {/* <UseEffectHookUpdatingPhase/> */}
+
+        <UseEffect_Unmounting_Phase/>
       </View>
   );
 };

@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 const InfoDetails = ({count,points}) => {
     useEffect(() => {
       console.log("I'm a child component");
-    }, [])
+    }, [count])
     
     return (
         <View>
