@@ -17,7 +17,8 @@ import React, { useState } from 'react';
 //import UseEffectHook from './src/components/UseEffectHook';
 //import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase';
 //import UseEffect_Unmounting_Phase from './src/components/UseEffect_Unmounting_Phase';
-import HideShowToggle from './src/components/HideShowToggle';
+//import HideShowToggle from './src/components/HideShowToggle';
+import StyleWithButton from './src/components/StyleWithButton';
 
 export default function App (){
   return (
@@ -59,7 +60,10 @@ export default function App (){
 
         {/* <UseEffect_Unmounting_Phase/> */}
 
-        <HideShowToggle/>
+        {/* <HideShowToggle/> */}
+
+        <StyleWithButton/>
+
       </View>
   );
 };
