@@ -16,7 +16,8 @@ import React, { useState } from 'react';
 //import ClassComponent from './src/components/ClassComponent';
 //import UseEffectHook from './src/components/UseEffectHook';
 //import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase';
-import UseEffect_Unmounting_Phase from './src/components/UseEffect_Unmounting_Phase';
+//import UseEffect_Unmounting_Phase from './src/components/UseEffect_Unmounting_Phase';
+import HideShowToggle from './src/components/HideShowToggle';
 
 export default function App (){
   return (
@@ -56,7 +57,9 @@ export default function App (){
 
         {/* <UseEffectHookUpdatingPhase/> */}
 
-        <UseEffect_Unmounting_Phase/>
+        {/* <UseEffect_Unmounting_Phase/> */}
+
+        <HideShowToggle/>
       </View>
   );
 };
