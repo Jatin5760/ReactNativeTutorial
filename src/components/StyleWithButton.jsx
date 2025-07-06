@@ -10,7 +10,9 @@ export default function StyleWithButton() {
         <Text style={styles.buttonText}>TouchableOpacity</Text>
       </TouchableOpacity>
 
-      <TouchableHighlight style={styles.button}>
+      <TouchableHighlight style={styles.button} onPress={()=>{
+            console.log("Hello")
+        }}>
         <Text style={styles.buttonText}>TouchableHighlight</Text>
       </TouchableHighlight>
     </View>
