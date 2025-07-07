@@ -1,5 +1,6 @@
 import { View, Text, Button} from 'react-native';
 import React, { useState } from 'react';
+import Loader from './src/components/Loader';
 //import Props from './src/components/Props'
 //import InputText from './src/components/InputText';
 //import UseStateHook from './src/components/UseStateHook'
@@ -18,7 +19,7 @@ import React, { useState } from 'react';
 //import UseEffectHookUpdatingPhase from './src/components/UseEffectHookUpdatingPhase';
 //import UseEffect_Unmounting_Phase from './src/components/UseEffect_Unmounting_Phase';
 //import HideShowToggle from './src/components/HideShowToggle';
-import StyleWithButton from './src/components/StyleWithButton';
+//import StyleWithButton from './src/components/StyleWithButton';
 
 export default function App (){
   return (
@@ -62,7 +63,9 @@ export default function App (){
 
         {/* <HideShowToggle/> */}
 
-        <StyleWithButton/>
+        {/* <StyleWithButton/> */}
+
+        <Loader/>
 
       </View>
   );
